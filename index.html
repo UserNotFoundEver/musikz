@@ -22,6 +22,9 @@
             text-align: center;
             background: #222;
             color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
         a {
             margin: 0 10px;
@@ -50,6 +53,11 @@
             width: 100%;
             border-radius: 10px;
         }
+        .artist a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
     </style>
 </head>
 <body>
@@ -60,12 +68,14 @@
         <div class="mt-4">
             <h2>We are looking for artists!</h2>
             <p>Submit your music to be featured on the collective. Join us in creating a vibrant community of artists and fans.</p>
-            <p>Contact us at <a href="mailto:infinati@musiks.xyz">infinati@musiks.xyz</a> with your submissions.</p>
+            <p>Contact us at <a href="mailto:infinati@muziks.xyz">infinati@muziks.xyz</a> with your submissions.</p>
         </div>
         <div class="artist-grid">
             <div class="artist">
-                <img src="infinati.jpeg" alt="Artist 1">
-                <p>Infinati</p>
+                <a href="infinati.html">
+                    <img src="infinati.jpeg" alt="Artist 1">
+                    <p>Infinati</p>
+                </a>
             </div>
             <div class="artist">
                 <img src="spaceyblurr.jpeg" alt="Artist 2">
@@ -76,11 +86,13 @@
                 <p>Artist Name 3</p>
             </div>
             <div class="artist">
-                <img src="spaceyblurr.jpeg" alt="Artist 4">
+                <img src="SpaceyBlurr.jpeg" alt="Artist 4">
                 <p>Artist Name 4</p>
             </div>
+        </div>
+    </div>
     <footer>
-        <p>© 2024 Muziks. All rights reserved. Contact <a href="mailto:infinati@musiks.xyz">infinati@musiks.xyz</a></p>
+        <p>© 2024 Muziks. All rights reserved. Contact <a href="mailto:infinati@muziks.xyz">infinati@muziks.xyz</a></p>
     </footer>
 </body>
 </html>
