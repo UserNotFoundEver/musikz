@@ -1,6 +1,6 @@
 body {
     background-color: #121212; /* Dark background for the nightclub theme */
-    color: #d91c7a; /* Purple text color */
+    color: #4d65ea; /* Purple text color */
     font-family: 'Comfortaa', cursive; /* Comfortaa font for the whole page */
 }
 footer {
@@ -14,13 +14,13 @@ footer {
 }
 a {
     margin: 0 10px;
-    color: hotpink; /* Purple color for icons to match the text */
+    color: #00b68b; /* Purple color for links to match the text */
 }
 a:visited {
     color: white;
 }
 a:hover {
-    color: #d91c7a;
+    color: #4d65ea;
 }
 img {
     max-width: 100%;
